@@ -1,2 +1,8 @@
 #!/bin/bash -x
-echo "Flip Coin Combination Problem "
+randomCheck=$((RANDOM%2))
+if [ $randomCheck -eq 1 ]
+	then
+	echo "Heads"
+	else
+	echo "Tails"
+fi
